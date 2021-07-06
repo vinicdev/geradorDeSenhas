@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="styles/styles.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <title>Projeto Electron</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous"> 
+    </head>
+    <body>
+        <div id="container">
+            <h1>Gerador de senha</h1>
+
+            <div class="gerador">
+                <label>Qual tamanho da senha?</label>
+                <input type="number" id="pass" min="0" max="15" />
+            </div>
+
+            <button onclick="generatePass()">Gerar senha</button>
+
+            <div class="resultado">
+                <span id="newPassword"></span>
+            </div>
+        </div>
+    </body>
+    <script src="./src/script.js"></script>
+</html>

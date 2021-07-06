@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: #000;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#container h1{
+    font-size: 60px;
+    color: #67159C;
+}
+
+#container button {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 25px;
+    background-color: #000000;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: groove #67159C 7px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ #container button:hover {
+    background: #000000;
+    border: solid #490F70 7px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+.gerador {
+    margin-top: 1rem;
+    align-items: baseline;
+}
+
+.gerador label {
+    font-size: 30px;
+    margin-right: 1rem;
+}
+
+.gerador input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+.gerador input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+.gerador input {
+    font-size: 30px;
+
+    width: 10%;
+    height: 40px;
+    margin-bottom: 1rem;
+}
+
+.resultado {
+    margin-top: 2rem;
+}
+
+.resultado span {
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 0.3rem;
+
+    color:red;
+}
